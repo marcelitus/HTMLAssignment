@@ -1,6 +1,8 @@
 <!doctype html>
 <html>
 <head>
+    <meta charset="utf-8" />
+    <link href="css/main.css" rel="stylesheet" />
 	<title>Marcelo Lanzarotti's Entrepreneurship Blog</title>
 </head>
 <body>
@@ -9,41 +11,96 @@
 	</header>
 	<nav>
 		<ul>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Twitter Feed</a></li>
-        <li class="subscribe"><a href="#">Subscribe via. RSS</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Twitter Feed</a></li>
+            <li class="subscribe"><a href="#">Subscribe via. RSS</a></li>
     	</ul>
 	</nav>
 	<section id="intro">
 	<header>
-       	 <h2>"Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma - which is living with the results of other
+		<h2>So you want to build a company? You came to the right place</h2>
+	</header>
+       	 <p>"Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma - which is living with the results of other
  people's thinking. Don't let the noise of other opinions drown out your own inner voice. And most important, have the courage to follow your heart
  and intuition. They somehow already know what you truly want to become. Everything else is secondary."</h2>
-    </header>
-    <p>	-Steve Jobs</p>
+ -Steve Jobs
+ <img src="images/Entrepreneurship101.png" alt="Entrepreneurship"</p>
 	</section>
+<div id="content">
+<div id="mainContent">
 	<section>
 	<article class="blogPost">
         <header>
             <h2>To build your own startup or to work for one. That is the question!</h2>
             <p>Posted on <time datetime="2013-06-05T7:00">June 5th 2013</time> by <a href="#">Marcelo Lanzarotti</a> - <a href="#comments">Comments</a></p>
         </header>
+        <div>
         <p>This is a hard question, it all depends!. But in general terms, if you are just getting started the ideal would be to work for a few years at a Startup to get expierence and learn form peers.
         Once you have built some experience now it is time to jump into building your own company!
-        Here is my favorite video about the subject:
-			<video id="myVideo" controls autoplay
+        Here is a video from my favorite author Steve Blank speaking about the subject.
+        </div>
+		 </p>
+			<video id="myVideo" controls
        		src="./video/Steve BlankEntrepreneurshipYoungPersonGame.mp4"
        		width="640" height="360">
        		</video>
 
-        </p>
-    </article>
+    </article></div>
 	</section>
+	<section id="comments">
+    <header>
+        <h3>Comments</h3>
+    </header>
+    <article>
+        <header>
+            <a href="#">Steve Blank</a> on <time datetime="2013-06-5T21:35:00-06:00">June 5th 2013 at 21:35</time>
+        </header>
+        <p>Thanks for embedding my video. Quite an important subject</p>
+    </article>
+    <article>
+        <header>
+            <a href="#">Eric Ries</a> on <time datetime="2013-06-05T21:35:00-06:00">June 5th 2013 at 21:35</time>
+        </header>
+        <p>Age is not important! Keeping your company Lean is!</p>
+    </article>
+</section>
+<form action="#" method="post">
+    <h3>Post a comment</h3>
+    <p>
+        <label for="name">Name</label>
+        <input name="name" id="name" type="text" required />
+    </p>
+    <p>
+        <label for="email">E-mail</label>
+        <input name="email" id="email" type="email" required />
+    </p>
+    <p>
+        <label for="comment">Comment</label>
+        <textarea name="comment" id="comment" required></textarea>
+    </p>
+    <p><input type="submit" value="Post comment" /></p>
+</form>
+</div>
 	<aside>
-		<!-- Sidebar -->
+		<section>
+				<header>
+					<h3>Archives</h3>
+				</header>
+				<ul>
+					<li><a href="#">June 2013</a></li>
+				</ul>
+		</section>
 	</aside>
+	</div>
 	<footer>
-		<!-- Footer -->
+	<div>
+			<section id="about">
+				<header>
+					<h3>About</h3>
+				</header>
+				<p>This is blog about Entrepreneurship. Originally built for an Entrepreneurship class, it will evolve into a permanent blog.</p>
+			</section>
+		Copyright Marcelo Lanzarotti 2013
 	</footer>
 
 
